@@ -1,0 +1,107 @@
+.body {
+    background-color: white;
+}
+
+@media screen and (max-width: 990px) {
+    #contenedor {
+        width: 90%;
+    }
+    #contenido {
+        width: 60%;
+    }
+    #barra_lateral {
+        width: 30%;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 7px 4px 5px rgb(139, 137, 129)
+}
+
+
+/* Elaboración del Diseño de las cajas del Sudoku */
+
+.sd {
+    table-layout: fixed;
+    border: rgb(100, 96, 86) 5px solid;
+    width: 500px;
+    height: 355px;
+    background-color: #fff;
+    vertical-align: middle;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.big {
+    FONT-SIZE: 35px;
+    border: none;
+    background-color: transparent;
+    WIDTH: 35px;
+    HEIGHT: 35px;
+    LINE-HEIGHT: 28px;
+    TEXT-ALIGN: center;
+    margin: 0px;
+    COLOR: green;
+    FONT-FAMILY: arial;
+}
+
+td.xx {
+    border-right: #999 1px solid;
+    border-top: #999 1px solid;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    LINE-height: 35px;
+}
+
+td.rr {
+    border-right: #443 2px solid;
+    border-top: #999 1px solid;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    LINE-height: 35px;
+}
+
+td.top {
+    border-right: #999 1px solid;
+    border-top: #443 2px solid;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    LINE-height: 35px;
+}
+
+td.topr {
+    border-right: #443 2px solid;
+    border-top: #443 2px solid;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    LINE-height: 35px;
+}
+
+.button {
+    background: #0099ff;
+    background-image: -webkit-linear-gradient(top, #0099ff, #2980b9);
+    background-image: -moz-linear-gradient(top, #0099ff, #2980b9);
+    background-image: -ms-linear-gradient(top, #0099ff, #2980b9);
+    background-image: -o-linear-gradient(top, #0099ff, #2980b9);
+    background-image: linear-gradient(to bottom, #0099ff, #2980b9);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+.btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
